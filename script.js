@@ -1,6 +1,6 @@
 function highlight() {
     //Write your code here
- let strong_tag= document.getElementsByTagName("strong")
+ let strong_tag= document.querySelectorAll("strong")
  strong_tag.style.color="green";
 
 }
