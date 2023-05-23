@@ -1,14 +1,17 @@
 function highlight() {
     //Write your code here
- let strong_tag= document.querySelectorAll("strong")
- strong_tag.style.color="green";
+ let strong_tags= document.getElementsByTagName("strong")
+ for (let i = 0; i < strong_tags.length; i++) {
+ 	strong_tags[i].style.color="green"
+ }
 
 }
 
 
 function return_normal() {
-    //Write your code here
-    let a_tag= document.getElementsByTagName("a")[0]
-    a_tag.style.color="black";
+   let strong_tags= document.getElementsByTagName("strong")
+ for (let i = 0; i < strong_tags.length; i++) {
+ 	strong_tags[i].style.color="black"
+ }
 }
 
